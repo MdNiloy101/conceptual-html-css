@@ -1,3 +1,59 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    color: green;
+    background-image: url("../images/cow.jpg");
+    height: 100vh;
+    background-position: center;
+     
+}
+.hero h1{
+    color:white;
+    font-size: 100px;
+    /* padding-bottom: 160px; */
+    text-align: center;
+    text-decoration: underline red;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.artical{
+    width: 80%;
+    /* 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; */
+    margin: 30px auto;
+    border:7px solid yellow;
+    padding: 20px;
+    text-align: justify;
+    background-color: skyblue;
+    font-size: 16px;
+
+}
+.artical h2{
+    text-align: center;
+    padding-bottom: 20px;
+    border: 3px solid yellow;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+}
+.artical p .short{
+    display: block ;
+   font-size:2em;
+   height: 20px;
+   width: 20px;
+   /* border: 2px solid green; */
+   margin: 20px;
+   margin-bottom: 80px;
+   padding: 20px;
+}
+.artical p{
+    line-height: 2em;
 }
